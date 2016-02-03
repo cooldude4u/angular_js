@@ -1,0 +1,102 @@
+1. What is AngularJS?
+
+AngularJS is a javascript framework used for crating single web page applications.
+It allows you to use HTML as your template language and enables you to extend HTML
+syntax to express your application's components clearly.
+
+2.Explain what are the key features of AngularJS?
+
+The key features of AngularJS are 
+
+Scope
+Controller
+Model
+View
+Services
+Data Binding
+Directives
+Filters
+Testable
+
+3.Explain what is scope in AngularJS?
+
+Scope refers to the application model, it acts like glue between application controller
+and the view. Scopes are arranged in hierarchical structures and impersonate the DOM
+Structure of the application. It can watch expression and propogate events.
+
+4. What is service in AngularJS ?
+In AngularJS services are the singleton objects or functions that are used for carrying out 
+specific tasks. It holds some business logic and these function can be called as controllers,
+directive, filters and so on
+
+5.Explain what is Angular Expresssion? Explain what is key differences between angular exp and
+javascript expression?
+
+Like javascript, Angualr expression are code snippet that are usually place in binding such as {{exp}}
+
+The key difference between the javascript exp and AngualrJS exp 
+  
+    . Context  : In Angular, the expression are evalulated against a scope object,
+                 while the javascript exp are evealuate against global window.
+    . Forgiving : In Angular expression evaluation is forgiving to njull and undefined,
+                  while in javascript undefined properties generates TypeError or referror
+    . No control flow stamt: loops, conditions or exceptions cannot be usedin an angular exp
+    
+    . Filters : To format data before displaying it you can use filters.
+  
+  6.With options on page load how you can initalized a select box?
+  You can initalize select box with options on page load by using ng-init directive
+  
+    <div ng-controller="app/dashboard/account" ng-switch
+    ON ="!! accounts" ng-init="loadData()">
+    
+    
+  7. Explain what are directies? Mention some of the most commonly used directives in AngularJS app?
+  
+  A directive is something that introduces new syntax, they are like markers on DOm
+  element which attaches a special behavior to it. In any angularJS directives are most important
+  components.
+  Some of the commonly used directives are ng-model, ng-App,m ng-bind, ng-repeat, ng-show etc.
+
+8.Mention what are the advantages of using AngularJS? 
+  
+  AngularJS has several adavntages in web development.
+    
+      AngularJS supports mvs pattern
+      can do two way data binding using angularjs
+      it has per defined form validations'
+      it supports both client server communications
+      it support annotations
+
+9 Explain what AngularJS router does?
+  
+  AngularJS routes enable you to crate different URLS for different content in your application.
+  DIffernet URLS for different contents enables use to bookmark URLS to specific content.
+  Each such bookmarkable URL in AnguarlJS is called a router.
+  
+10 Explain what is databinding in AngularJS?
+  Automatic synchronization of data between the model and view components is reffered as data binding in AngularJS.
+  There are two ways for databinding.
+  
+    1.Data Mining in classical tempate systems
+    2.Data binding in angular templates.
+
+11. What makes AngularJS better?
+
+  Registering Callback : There is no need to register callbacks. THis makes you code simple and easy to debug.
+  
+  Control HTML DOM programmatically : All the application that are created using Angular never have to mainpulate the 
+  DOM although it can be done if it is required.
+  
+  Transfer data to and fromthe UI : AngularJS helps to eliminate almost all of the boiler plate like validationg the form,
+  displaying validation errors, returning to an internal model and so on which occurs due to flow of marshalling data
+  No initalization code : With AnguarlJS you can bootstrap you app easily services, which auto injected into yourr application
+  in Fuice like dependency injection style.
+  
+
+
+  
+  
+                  
+
+
