@@ -1,0 +1,121 @@
+What is AngualrJS?
+
+AngularJS is a framework to build large scale and high performance web appliction
+while keeping them as easy-to-maintain. Following are the Feature of AngularJS FW.
+
+AngularJS is a powerful javascript based development framework to crate rich Internet
+applications
+
+AngularJS provides developers options to write client side applications using
+js in clean mvc way.
+
+Application written in AngularJS is cross browser compilation. AngularJS automatically
+handles JavaScript code suiutable for each browser.
+
+AngularJS is open source, compeletly free, and used by thousednds of developers
+around the world. It is licensed unde Apache license version2.0
+
+
+
+What is data binding in AngularJS?
+
+Data binding is the automcatic synchronization of data betwen model and view components
+ng-mode directive is used in data binding.
+
+What is scope in AngularJS?
+
+Scopes are objects that refer to the model. They act as flue between controller and view
+
+What is the controller in AngularJS?
+
+Controller are javascript function that are bound to particular scope. They are the prime
+actor in angularJS framework and carry functions to operate on data and decide which
+view is to be updated to show the update model based data.
+
+
+What are the services in angularJS?
+
+AngularJS come with serveral built in service for ex $http service is used to make 
+XMLHttpRequest(Ajax calls). Services are singleton object which are instantiated only 
+once in app.
+
+What are the filters in AngularJS?
+
+Fileters select a subset of itme from a array and return a new array. Filter are used to 
+show filtered items froma list of items basedon defined criteria.
+
+Explain directivews in AngularJS?
+Directives are markers on DOM elemetns. These can be used to crate custom html tags that
+serve a new, custom widgets. AngularJS has built in directives to perform most of the task
+that developers have to do.
+
+Explain templates in AngularJS?
+
+Templates are the rendered view with information from the controller and model. This can 
+be single file or multiple view in one page using partials.
+
+What is routing in AngularJS?
+
+It is concept of switichign views. AngularJS based controller decides which view to render
+based on the buisness logic.
+
+What is deep linking in AngularJS?
+
+Deep linkind allows you to encode the state of application in the URL so that it can be 
+bookmarked. The application can then be restored from the URL to the same state.
+
+What are the advantages of AngularJS?
+
+Following are the advantages of AngularJS.
+
+    AngularJS provides capability to crate single page application in a very clean and maintainable way.
+    AngularJS provide data binding capability to HTML thus gives user a rich and responsive experience.
+    AngularJS code is unit testable.
+    AngularJS used dependency injection and make use of seperation of concerns.
+    AngularJS provide reusable components.
+    With AngularJS, developer writes less code and gets more functionality.
+    In ANgualrJS, View are pure html pags, and controllers written in JS do the business logic
+    AngularJS applications can run on all major browsers and smart phone including a
+    android and ios based phone/tablets.
+    
+What are the disadvantages of AngularJS?
+
+Not secure:  Benign JS only framework, applicaiton written in AngularJS are not sage.
+Server Side authentication and authorization is must to keep an application secure.
+
+Not Degradable : If your application users disables JS then user will jsut see the basid page and nothing more.
+
+What are the core directgives of AngularJS?
+
+Following are the three core directives of AngulareJS.
+
+ng-app -- This directive defines and links an AngulareJS application to HTMl.
+ng-model -- This directive binds the values of AngularJS application data to HTML.
+ng-bind -- This directive bind the AngularJS Application data to HTML tags.
+
+Explain AngularJS boot process.
+
+when the page is loaded in the browser following things happen.
+
+HTML document is loaded into the browser and evaluated by the browser
+  angularjs file is loaded; the angular global object is crated. Next
+  JavaScript which register controller funciton is executed.
+
+Next AngularJS scan through the HMTL to look for AngularJS app and views. 
+Once is loacted, it connects that vie to corresponding controller function.
+
+Next, AngularJS executes the controller functions. It then renders the view
+with data from the model populated by the contorller. The page get ready.
+
+What is MVC ?
+
+Model view Controller or MVC as it is propularly called is a softare design pattern for 
+developing web applications. A Model View Controller pattrn is made up of the following
+three parts:
+
+  model : It is the lowest level of the pattern responsible for maintaining data.
+  View  : It is responsible for displaying all or a portion of data to the user.
+  Contoller : It is a software code that controls the interactions between the Model and 
+            View.
+            
+
